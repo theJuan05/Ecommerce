@@ -1,0 +1,32 @@
+/* Body background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+/* Product table images */
+.product-img {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.product-img:hover {
+    transform: scale(1.2);
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f8f9fa;
+    transition: 0.3s;
+}
+.sale-price {
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
